@@ -22,7 +22,7 @@ namespace Pry_gestor_de_mantenimiento
             dgvClientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dgvClientes.DataSource = cliente.CargarDatagridview();
             LbFecha.Text = cliente.Lblhora;
-            // Configurar combos puta
+            // Configurar combos puta hola
             // Cargar categorías de equipos
             cmbCategorias.DataSource = cliente.ObtenerCategorias();
             cmbCategorias.DisplayMember = "vchnombre";
